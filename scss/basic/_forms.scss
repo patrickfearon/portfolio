@@ -1,0 +1,45 @@
+label {
+  &.error {
+
+  }
+}
+
+input,
+textarea {
+  &:focus {
+
+  }
+
+  &.error{
+
+  }
+}
+
+textarea {
+
+}
+
+
+select{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url('../img/select.png');
+  padding-right: 50px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 30px 8px;
+}
+
+select {
+  &:focus {
+
+  }
+
+  &.error{
+
+  }
+}
+
+button {
+
+}

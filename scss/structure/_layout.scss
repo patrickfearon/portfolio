@@ -1,0 +1,25 @@
+.container {
+  @include clearfix();
+  margin: 0 auto;
+  padding: 0 15%;
+  max-width: 1440px;
+  box-sizing: content-box;
+
+  @media (min-width: $screen-sm) {
+    padding: 0 18%;
+  }
+
+  @media (min-width: $screen-lg) {
+    padding: 0 18%;
+  }
+
+  @media (min-width: $screen-xxl) {
+    padding: 0 18%;
+  }
+}
+
+section {
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+}

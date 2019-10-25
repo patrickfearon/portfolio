@@ -1,0 +1,23 @@
+a {
+  @include transition(all 0.2s ease-in-out);
+}
+
+p {
+  @include transition(all 0.2s ease-in-out);
+}
+
+h1 {
+  @include transition(all 0.2s ease-in-out);
+}
+
+h3 {
+  @include transition(all 0.2s ease-in-out);
+}
+
+span {
+  @include transition(all 0.2s ease-in-out);
+}
+
+.rightArrow {
+  @include transition(all 0.2s ease-in-out);
+}

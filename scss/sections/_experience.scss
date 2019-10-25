@@ -1,0 +1,220 @@
+.anchorExperience {
+  display: block;
+  position: relative;
+  padding-top: 100px;
+  margin-top: -100px;
+  visibility: hidden;
+}
+
+.experience {
+  background: white;
+  display: flex-inline;
+  padding: 0px 0 100px 0;
+
+  .bulb & {
+    background: $black;
+
+    .rightArrow {
+      filter: invert(100%);
+    }
+
+    .experienceContent {
+      .experienceText {
+        p {
+          a {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .topContent {
+    display: inline-flex;
+
+    .numberOne {
+      font-size: 48px;
+      margin: 0 0 0 -30px;
+    }
+
+    p {
+      padding: 15px 15px;
+      font-size: 24px;
+      text-decoration: underline;
+      font-weight: lighter;
+    }
+  }
+
+  .experienceContent {
+    .experienceText {
+      p {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: normal;
+
+        a {
+          text-decoration: none;
+          color: $black;
+          padding: 0 0;
+          line-height: normal;
+          display: inline-flex;
+          position: relative;
+          cursor: pointer;
+
+          &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 4px;
+            bottom: -10px;
+            left: 0;
+            background-color: $red;
+            transform-origin: bottom;
+            transition: transform 0.25s ease-out;
+          }
+
+          &:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom;
+          }
+        }
+
+        &.dates {
+          font-size: 18px;
+          color: grey;
+        }
+      }
+      .resume {
+        display: inline-flex;
+        //background: green;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+
+    .experience-block {
+      margin: 25px 0;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .rightArrow {
+      //background: hotpink;
+      display: inline-flex;
+      padding: 0 10px;
+      height: 22px;
+      cursor: pointer;
+      margin: auto 0;
+    }
+  }
+  @media screen and(min-width: $screen-xs) {
+    //background: green;
+  }
+
+  @media screen and(min-width: $screen-sm) {
+    //background: blue;
+
+    .topContent {
+      .numberOne {
+        font-size: 72px;
+        margin: 30px 0 0 -30px;
+      }
+
+      p {
+        padding: 15px 15px;
+        margin: 30px 0 30px 0;
+        font-size: 48px;
+      }
+    }
+
+    .experienceContent {
+      .experienceText {
+        p {
+          font-size: 36px;
+          // padding: 10px 0;
+
+          &.dates {
+            font-size: 24px;
+            margin-bottom: 5px;
+          }
+        }
+      }
+
+      .experience-block {
+        margin: 40px 0;
+      }
+
+      .resume {
+        padding: 10px 0;
+        //background: green;
+
+        a {
+          font-size: 24px;
+        }
+      }
+
+      .rightArrow {
+        //background: crimson;
+        padding: 0 0 0 20px;
+        margin: -6px 0;
+        height: 44px;
+      }
+    }
+  }
+
+  @media screen and(min-width: $screen-md) {
+    //background: orange;
+
+    .topContent {
+      .numberOne {
+        font-size: 144px;
+        margin: 40px 0 0 -100px;
+      }
+      p {
+        padding: 40px 15px;
+      }
+    }
+
+    .experienceContent {
+      .experienceText {
+        p {
+          font-size: 48px;
+          // padding: 20px 0;
+
+          &.dates {
+            font-size: 36px;
+            margin-bottom: 5px;
+          }
+
+          .break {
+            content: " ";
+          }
+
+          .break:after {
+            content: " ";
+          }
+        }
+      }
+
+      .experience-block {
+        margin: 50px 0;
+      }
+
+      .resume {
+        padding: 20px 0;
+        a {
+          font-size: 36px;
+        }
+      }
+      .rightArrow {
+        //background: crimson;
+        padding: 0 0 0 20px;
+        margin: auto 0;
+        height: 44px;
+      }
+    }
+  }
+}
