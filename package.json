@@ -5,7 +5,7 @@
   "devDependencies": {
     "browser-sync": "2.27.7",
     "gulp": "4.0.2",
-    "gulp-inline-source": "3.2.0",
+    "gulp-inline-source": "4.0.0",
     "gulp-kit": "github:fatso83/gulp-kit",
     "gulp-sass": "5.1.0",
     "gulp-sass-glob": "1.1.0",
