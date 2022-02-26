@@ -1636,14 +1636,14 @@ gulp-sass-glob@1.1.0:
     slash "^3.0.0"
     through2 "^3.0.1"
 
-gulp-sass@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/gulp-sass/-/gulp-sass-3.1.0.tgz#53dc4b68a1f5ddfe4424ab4c247655269a8b74b7"
-  integrity sha1-U9xLaKH13f5EJKtMJHZVJpqLdLc=
+gulp-sass@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/gulp-sass/-/gulp-sass-3.2.1.tgz#2e3688a96fd8be1c0c01340750c191b2e79fab94"
+  integrity sha512-UATbRpSDsyXCnpYSPBUEvdvtSEzksJs7/oQ0CujIpzKqKrO6vlnYwhX2UTsGrf4rNLwqlSSaM271It0uHYvJ3Q==
   dependencies:
     gulp-util "^3.0"
     lodash.clonedeep "^4.3.2"
-    node-sass "^4.2.0"
+    node-sass "^4.8.3"
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
@@ -2720,7 +2720,7 @@ node-kit@0.9.0:
   resolved "https://registry.yarnpkg.com/node-kit/-/node-kit-0.9.0.tgz#efcb082148404dd707d6f2b56ccbcc39a4d62beb"
   integrity sha1-78sIIUhATdcH1vK1bMvMOaTWK+s=
 
-node-sass@^4.2.0:
+node-sass@^4.8.3:
   version "4.14.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.14.1.tgz#99c87ec2efb7047ed638fb4c9db7f3a42e2217b5"
   integrity sha512-sjCuOlvGyCJS40R8BscF5vhVlQjNN069NtQ1gSxyK1u9iqvn6tf7O1R4GNowVZfiZUCRt5MmMs1xd+4V/7Yr0g==
