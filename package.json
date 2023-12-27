@@ -3,7 +3,7 @@
   "name": "asp.net",
   "private": true,
   "devDependencies": {
-    "browser-sync": "2.27.7",
+    "browser-sync": "3.0.2",
     "gulp": "4.0.2",
     "gulp-inline-source": "4.0.0",
     "gulp-kit": "github:fatso83/gulp-kit",
